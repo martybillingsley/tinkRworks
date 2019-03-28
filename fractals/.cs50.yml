@@ -1,5 +1,6 @@
 lab50:
 window:
     - readme
+    - editor
   files:
     - !exclude foo/trees
