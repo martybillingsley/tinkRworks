@@ -1,3 +1,5 @@
 lab50:
+window:
+    - readme
   files:
     - !exclude foo/trees
