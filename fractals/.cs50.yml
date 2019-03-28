@@ -3,4 +3,4 @@ lab50:
     - readme
     - terminal
    files:
-    - !exclude trees
+    - !exclude trees/
