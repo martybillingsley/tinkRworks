@@ -4,3 +4,5 @@ lab50:
     - readme
     - terminal
     - x
+  files:
+    - !include tree.py
