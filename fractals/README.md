@@ -25,5 +25,6 @@ Because fractals go on to infinity, they are drawn using recursion. If you haven
 If you haven't used turtles, warm up with this Turtle Example.
 <br><br>
 ## Fractal Challenges
-Trees
-Koch Curve
+[Trees](https://lab.cs50.io/martybillingsley/tinkRworks/master/fractalTrees/) <br>
+Koch Snowflake<br>
+Dragon Curve<br>
