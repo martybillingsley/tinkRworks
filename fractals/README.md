@@ -7,6 +7,7 @@ This can be demonstrated by looking at a tree (which you'll write code to draw).
 
 ![Tree Details](https://raw.githubusercontent.com/martybillingsley/images/master/treeDetail.jpg)
 
+
 Fractals are more than a mathematical curiosity, but are found in nature and can be put to use:
 {% video https://www.youtube.com/watch?v=WFtTdf3I6Ug %}
 
