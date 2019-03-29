@@ -1,7 +1,10 @@
 # Fractals
 A *fractal* is a curve or geometric figure, a never-ending pattern that is self-similar across different scales. In other words, it looks the same at any magnification. Fractals are useful in modeling structures (such as eroded coastlines or snowflakes) in which similar patterns recur at progressively smaller scales, and in describing partly random or chaotic phenomena such as crystal growth, fluid turbulence, and galaxy formation.
 
+The term *fractal* (from the Latin *fractus*, meaning “broken”) was coined by the mathematician Benoit Mandelbrot in 1975. In his seminal work *The Fractal Geometry of Nature*, he defines a fractal as “a rough or fragmented geometric shape that can be split into parts, each of which is (at least approximately) a reduced-size copy of the whole.”
 
+This can be demonstrated by looking at a tree (which you'll write code to draw). The tree has a branching structure, as shown in the image on the left. At the end of the trunk are two branches; at the end of each of those branches are two more branches. At the end of those branches are two more branches, and so on to infinity. If you zoom in to the end of one branch, you'll see that the end of a branch resembles a tree. This is what is meant by *self similarity*.
+![Tree Details](https://raw.githubusercontent.com/martybillingsley/images/master/treeDetail.png)
 
 Read more about fractals at [Wikipedia](https://en.wikipedia.org/wiki/Fractal) <br><br>
 
