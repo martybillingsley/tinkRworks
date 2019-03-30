@@ -51,28 +51,28 @@ Try encrypting any message, with a shift of your choice.
     function encipherCaesar(){
       var plaintext = document.getElementById("textInput2").value;
       var shift = document.getElementbyId("shiftInput").value % 26;
-      var ciphertext = ""
-      for (var i=0; i<plaintext.length; i++;){
-        chr = plaintext[i];
-	if (chr >= 'a' && chr <= 'z'){
-	  ordNum = plaintext.charCodeAt(0) + shift;
-          if (ordNum > 'z'.charCodeAt(0)){
-	    ordNum = ordNum - 26;
-          } else if (ordNum < 'a'.charCodeAt(0)){
-	    ordNum = ordNum + 26;
-          }
-	} else if (chr >= 'A' && chr <= 'Z'){
-	  ordNum = plaintext.charCodeAt(0) + shift;
-          if (ordNum > 'Z'.charCodeAt(0)){
-	    ordNum = ordNum - 26;
-          } else if (ordNum < 'A'.charCodeAt(0)){
-	    ordNum = ordNum + 26;
-          }
-	} else {
-	  ordNum = plaintext.charCodeAt(0);
-	}
+      var ciphertext = "";
+    for (var i=0; i<plaintext.length; i++){
+        var chr = plaintext[i];
+	    if (chr >= 'a' && chr <= 'z'){
+	        var ordNum = chr.charCodeAt(0) + shift;
+            if (ordNum > 'z'.charCodeAt(0)){
+	            ordNum = ordNum - 26;
+            } else if (ordNum < 'a'.charCodeAt(0)){
+	            ordNum = ordNum + 26;
+            }
+	    } else if (chr >= 'A' && chr <= 'Z'){
+	        var ordNum = plaintext.charCodeAt(0) + shift;
+            if (ordNum > 'Z'.charCodeAt(0)){
+	            ordNum = ordNum - 26;
+            } else if (ordNum < 'A'.charCodeAt(0)){
+	            ordNum = ordNum + 26;
+            }
+	    } else {
+	        var ordNum = plaintext.charCodeAt(0);
+	    }
         ciphertext += String.fromCharCode(ordNum);
-      }				
+      }		
       document.getElementById('output2').innerText = cipherText;
     }
   }
