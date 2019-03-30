@@ -89,7 +89,8 @@ Play with this a bit:
 * What happens if you mix uppercase and lowercase letters?
 
 {% next %}
-# Try writing a function to encrypt a message using the Caesar cipher:
+# Write Caesar Cipher Function
+Try writing a function to encrypt a message using the Caesar cipher.
 Call the function `encrypt()`. It should take in a message and a shift. It should return the encrypted message.
 <br>
 A good place to start is to write a function to encrypt a single letter. Call this function `encryptLetter()`. It should take in a letter and a shift, and return the encrypted letter. The `encrypt()` function can call `encryptLetter()` over and over.
