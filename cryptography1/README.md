@@ -36,7 +36,7 @@ Enter your answer below:
     }
   }
 </script>
-
+<br>
 Try encrypting any message, with a shift of your choice:
 
 <div style="background-color:lightblue; padding:20px; width:400px;">
@@ -81,3 +81,16 @@ Try encrypting any message, with a shift of your choice:
     }
   
 </script>
+<br>
+Play with this a bit:
+* What happens if your message contains punctuation or spaces? Do those get encrypted? 
+* What happens if you encrypt the letter "x" with a shift of 5? 
+* What happens if you try a negative shift? 
+* What happens if you mix uppercase and lowercase letters?
+
+{% next %}
+# Try writing a function to encrypt a message using the Caesar cipher:
+Call the function `encrypt()`. It should take in a message and a shift. It should return the encrypted message.
+<br>
+A good place to start is to write a function to encrypt a single letter. Call this function `encryptLetter()`. It should take in a letter and a shift, and return the encrypted letter. The `encrypt()` function can call `encryptLetter()` over and over.
+
