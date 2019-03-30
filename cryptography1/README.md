@@ -50,6 +50,7 @@ Try encrypting any message, with a shift of your choice:
 
 <script>
     function encipherCaesar(){
+      cosole.log('encipherCaesar called')
       var plaintext = document.getElementById("textInput2").value;
       var shift = document.getElementbyId("shiftInput").value % 26;
       var ciphertext = "";
