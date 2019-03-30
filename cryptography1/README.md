@@ -25,9 +25,9 @@ Try it out. Enter a number to see what the corresponding character is. Good ones
 
 <div style="background-color:lightblue; padding:20px; width:300px;">
 	Input number: 
-	<input id="ordNumberInput" type="number" min="0" value="65"><br>
+	<input id="ordNumberInput" type="number" min="0" value="65" size="30"><br>
 	<input type="button" value="Click to Convert" onclick="convertToEmoji();">
-	<div id="emojiOutput" style="width:100px;">Stuff</div>
+	<div id="emojiOutput" style="width:100px; font-size:48px;"></div>
 <br></div>
 
 <script>
