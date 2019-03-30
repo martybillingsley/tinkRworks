@@ -10,7 +10,7 @@ In a substitution cipher, letters in the plaintext message are replaced with oth
 
 ### Transposition Ciphers
 In a transposition cipher, the letters in the plaintext message are not replaced, but are switched around so that the message can't be easiliy read.
-<br>
+<br><br>
 
 ## Letters as Numbers
 Computers store everything as numbers, including characters (letters, digits, punctuation, emoji, etc.). This makes it easy to apply arithmetic algorithms to the characters; underneath, they're just numbers.
