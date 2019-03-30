@@ -12,4 +12,5 @@ In a substitution cipher, letters in the plaintext message are replaced with oth
 In a transposition cipher, the letters in the plaintext message are not replaced, but are switched around so that the message can't be easiliy read.
 <br>
 # Caesar Cipher
+The Caesar Cipher, one of the earliest known and simplest ciphers, is a special type of substituion cipher called a *rotation cipher*. Each letter in the plaintext message is 'shifted' a certain number of places down the alphabet. For example, with a shift of 2, A would be replaced by C, B would be replaced by D, and so on.
 
