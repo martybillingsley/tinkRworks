@@ -14,3 +14,22 @@ In a transposition cipher, the letters in the plaintext message are not replaced
 # Caesar Cipher
 The Caesar Cipher, one of the earliest known and simplest ciphers, is a special type of substituion cipher called a *rotation cipher*. Each letter in the plaintext message is 'shifted' a certain number of places down the alphabet. For example, with a shift of 2, A would be replaced by C, B would be replaced by D, and so on.
 
+Try enciphering the word 'cipher' with a shift of 3. Enter your answer below:
+
+<div style="background-color:lightblue; padding:20px; width:300px;">
+	Input ciphertext: 
+	<input id="textInput1" type="text"><br>
+	<input type="button" value="Check Your Answer" onclick="checkAnswer();">
+	<div id="output1" style="width:100px;">Stuff</div>
+<br></div>
+
+<script>
+	function checkAnswer(){
+		var txt = document.getElementById("textInput1").value;
+		if (txt == 'flskhu'){
+		  document.getElementById('output1').innerText = 'Correct!';
+	  } else {
+      document.getElementById('output1').innerText = 'Incorrect. Try Again';
+    }
+  }
+</script>
