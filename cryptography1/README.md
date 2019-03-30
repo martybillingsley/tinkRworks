@@ -77,7 +77,7 @@ Try encrypting any message, with a shift of your choice:
 	}
         ciphertext += String.fromCharCode(ordNum);
       }		
-      document.getElementById('output2').innerText = ciphertext;
+      document.getElementById('output2').innerText = 'hello';
     }
   
 </script>
