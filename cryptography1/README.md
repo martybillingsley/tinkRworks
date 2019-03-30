@@ -20,7 +20,7 @@ Try enciphering the word 'cipher' with a shift of 3. Enter your answer below:
 	Input ciphertext: 
 	<input id="textInput1" type="text"><br>
 	<input type="button" value="Check Your Answer" onclick="checkAnswer();">
-	<div id="output1" style="width:100px;">Stuff</div>
+	<div id="output1" style="width:200px;"> </div>
 <br></div>
 
 <script>
