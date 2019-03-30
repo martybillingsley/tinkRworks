@@ -53,6 +53,7 @@ Try encrypting any message, with a shift of your choice:
       var plaintext = document.getElementById("textInput2").value;
       var shift = document.getElementbyId("shiftInput").value % 26;
       var ciphertext = "";
+      document.getElementById('output2').innerText = "encrypting...";
     for (var i=0; i<plaintext.length; i++){
         var chr = plaintext[i];
 	    if (chr >= 'a' && chr <= 'z'){
