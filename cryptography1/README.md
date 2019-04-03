@@ -114,6 +114,8 @@ Enter your answer below:
   
 </script>
 <br>
+<br>
+
 #### Play with this a bit:
 * What happens if your message contains punctuation or spaces? Do those get encrypted? 
 * What happens if you encrypt the letter "x" with a shift of 5? 
