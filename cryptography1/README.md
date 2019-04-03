@@ -89,24 +89,24 @@ Enter your answer below:
       	document.getElementById('output2').innerText = "encrypting...";
       	for (var i=0; i<plaintext.length; i++){
         	var chr = plaintext[i];
-			var ordNum = 0;
-			if (chr >= 'a' && chr <= 'z'){
-	  			ordNum = chr.charCodeAt(0) + shift;
+		var ordNum = 0;
+		if (chr >= 'a' && chr <= 'z'){
+	  		ordNum = chr.charCodeAt(0) + shift;
           		if (ordNum > 'z'.charCodeAt(0)){
 	    			ordNum = ordNum - 26;
           		} else if (ordNum < 'a'.charCodeAt(0)){
 	     			ordNum = ordNum + 26;
           		}
-			} else if (chr >= 'A' && chr <= 'Z'){
-	  			ordNum = plaintext.charCodeAt(0) + shift;
+		} else if (chr >= 'A' && chr <= 'Z'){
+	  		ordNum = chr.charCodeAt(0) + shift;
           		if (ordNum > 'Z'.charCodeAt(0)){
 	    			ordNum = ordNum - 26;
           		} else if (ordNum < 'A'.charCodeAt(0)){
 	    			ordNum = ordNum + 26;
           		}
-			} else {
-	  			ordNum = chr.charCodeAt(0);
-			}
+		} else {
+	  		ordNum = chr.charCodeAt(0);
+		}
         	ciphertext += String.fromCharCode(ordNum);
       	}		
       	document.getElementById('output2').innerText = ciphertext;
