@@ -128,10 +128,11 @@ Call the function `encrypt()`. It should do the following:
 * take in a shift as an argument (integer)
 * return the encrypted message (string)
 <br>
-### 
+### Small Steps
 A good place to start is to write a function to encrypt a single letter. Call this function `encryptLetter()`. It should take in a letter and a shift, and return the encrypted letter. The `encrypt()` function can call `encryptLetter()` over and over.
   
   
 Type your function definitions in the `caesar.py` file to the right. 
 After the function definitions, add some code to test your function, for example: `print(encrypt('hello', 5))`
 To run your code, type `python caesar.py` in the terminal window at the bottom.
+
