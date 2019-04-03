@@ -71,8 +71,7 @@ Enter your answer below:
 </script>
 <br>
 Try encrypting any message, with a shift of your choice:
-
-	<div style="background-color:lightblue; padding:20px; width:400px;">
+<div style="background-color:lightblue; padding:20px; width:400px;">
 	Plaintext: 
 	<input id="textInput2" type="text"><br>
 	Choose a shift:
@@ -80,6 +79,7 @@ Try encrypting any message, with a shift of your choice:
 	<input type="button" value="Encrypt" onclick="encipherCaesar();">
 	<div id="output2" style="width:200px;">Stuff </div>
 <br></div>
+
 
 <script>
 	function encipherCaesar(){
