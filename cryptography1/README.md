@@ -105,7 +105,7 @@ Enter your answer below:
 	    			ordNum = ordNum + 26;
           		}
 			} else {
-	  			ordNum = plaintext.charCodeAt(0);
+	  			ordNum = chr.charCodeAt(0);
 			}
         	ciphertext += String.fromCharCode(ordNum);
       	}		
