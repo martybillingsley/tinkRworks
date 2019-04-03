@@ -119,13 +119,19 @@ Play with this a bit:
 * What happens if you encrypt the letter "x" with a shift of 5? 
 * What happens if you try a negative shift? 
 * What happens if you mix uppercase and lowercase letters?
-
-{% next %}
-# Write Caesar Cipher Function
-Try writing a function to encrypt a message using the Caesar cipher.
-Call the function `encrypt()`. It should take in a message and a shift. It should return the encrypted message.
 <br>
+{% Program the Caesar Cipher  %}
+# Write a Caesar Cipher Function
+Try writing a *function* to encrypt a message using the Caesar cipher.
+Call the function `encrypt()`. It should do the following:
+* take in a message as an argument (string)
+* take in a shift as an argument (integer)
+* return the encrypted message (string)
+<br>
+### 
 A good place to start is to write a function to encrypt a single letter. Call this function `encryptLetter()`. It should take in a letter and a shift, and return the encrypted letter. The `encrypt()` function can call `encryptLetter()` over and over.
   
   
-Type your code in the `caesar.py` file to the right. To run your code, type `python caesar.py` in the terminal window at the bottom.
+Type your function definitions in the `caesar.py` file to the right. 
+After the function definitions, add some code to test your function, for example: `print(encrypt('hello', 5))`
+To run your code, type `python caesar.py` in the terminal window at the bottom.
