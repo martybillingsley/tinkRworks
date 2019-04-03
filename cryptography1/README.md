@@ -72,7 +72,7 @@ Enter your answer below:
 <br>
 Try encrypting any message, with a shift of your choice:
 
-<div style="background-color:lightblue; padding:20px; width:400px;">
+	<div style="background-color:lightblue; padding:20px; width:400px;">
 	Plaintext: 
 	<input id="textInput2" type="text"><br>
 	Choose a shift:
@@ -82,35 +82,34 @@ Try encrypting any message, with a shift of your choice:
 <br></div>
 
 <script>
-    function encipherCaesar(){
-      console.log('encipherCaesar called')
-      var plaintext = document.getElementById("textInput2").value;
-      var shift = document.getElementbyId("shiftInput").value % 26;
-      var ciphertext = "";
-      document.getElementById('output2').innerText = "encrypting...";
-      for (var i=0; i<plaintext.length; i++){
-        var chr = plaintext[i];
-	var ordNum = 0;
-	if (chr >= 'a' && chr <= 'z'){
-	  ordNum = chr.charCodeAt(0) + shift;
-          if (ordNum > 'z'.charCodeAt(0)){
-	    ordNum = ordNum - 26;
-          } else if (ordNum < 'a'.charCodeAt(0)){
-	     ordNum = ordNum + 26;
-          }
-	} else if (chr >= 'A' && chr <= 'Z'){
-	  ordNum = plaintext.charCodeAt(0) + shift;
-          if (ordNum > 'Z'.charCodeAt(0)){
-	    ordNum = ordNum - 26;
-          } else if (ordNum < 'A'.charCodeAt(0)){
-	    ordNum = ordNum + 26;
-          }
-	} else {
-	  ordNum = plaintext.charCodeAt(0);
-	}
-        ciphertext += String.fromCharCode(ordNum);
-      }		
-      document.getElementById('output2').innerText = 'hello';
+	function encipherCaesar(){
+      	var plaintext = document.getElementById("textInput2").value;
+      	var shift = document.getElementById("shiftInput").value % 26;
+      	var ciphertext = "";
+      	document.getElementById('output2').innerText = "encrypting...";
+      	for (var i=0; i<plaintext.length; i++){
+        	var chr = plaintext[i];
+			var ordNum = 0;
+			if (chr >= 'a' && chr <= 'z'){
+	  			ordNum = chr.charCodeAt(0) + shift;
+          		if (ordNum > 'z'.charCodeAt(0)){
+	    			ordNum = ordNum - 26;
+          		} else if (ordNum < 'a'.charCodeAt(0)){
+	     			ordNum = ordNum + 26;
+          		}
+			} else if (chr >= 'A' && chr <= 'Z'){
+	  			ordNum = plaintext.charCodeAt(0) + shift;
+          		if (ordNum > 'Z'.charCodeAt(0)){
+	    			ordNum = ordNum - 26;
+          		} else if (ordNum < 'A'.charCodeAt(0)){
+	    			ordNum = ordNum + 26;
+          		}
+			} else {
+	  			ordNum = plaintext.charCodeAt(0);
+			}
+        	ciphertext += String.fromCharCode(ordNum);
+      	}		
+      	document.getElementById('output2').innerText = ciphertext;
     }
   
 </script>
