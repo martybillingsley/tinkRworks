@@ -49,7 +49,7 @@ and `chr(97)` prouces 'a'
 # Caesar Cipher
 The Caesar Cipher, one of the earliest known and simplest ciphers, is a special type of substituion cipher called a *rotation cipher*. Each letter in the plaintext message is 'shifted' a certain number of places down the alphabet. For example, with a shift of 2, A would be replaced by C, B would be replaced by D, and so on.
 
-Try enciphering the word **cipher** with a shift of 3. 
+### Try enciphering the word **cipher** with a shift of 3. 
 Enter your answer below:
 
 <div style="background-color:lightblue; padding:20px; width:300px;">
@@ -69,15 +69,15 @@ Enter your answer below:
     }
   }
 </script>
-<br>
-Try encrypting any message, with a shift of your choice:
+<br><br>
+### Try encrypting any message, with a shift of your choice:
 <div style="background-color:lightblue; padding:20px; width:400px;">
 	Plaintext: 
 	<input id="textInput2" type="text"><br>
 	Choose a shift:
 	<input id="shiftInput" type="number" width="20"><br>
 	<input type="button" value="Encrypt" onclick="encipherCaesar();">
-	<div id="output2" style="width:200px;">Stuff </div>
+	<div id="output2" style="width:200px;">&nbsp; </div>
 <br></div>
 
 
