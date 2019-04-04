@@ -13,7 +13,7 @@ depth3: ![Koch depth 3](https://raw.githubusercontent.com/martybillingsley/image
 To run your program, type `python koch.py` in the terminal window at the bottom of your screen.<br>
 
 {% spoiler "Turtle Reference" %}
-You'll need these commands:
+You'll need these commands:<br>
 `forward (`distance in pixels`)`<br>
 `right (`degrees`)`<br>
 `left (`degrees`)`<br>
