@@ -8,10 +8,12 @@ A tree is made of a trunk and branches. Write a `drawTree()` function that draws
 To run your program, type `python tree.py` in the terminal window at the bottom of your screen.<br>
 
 {% spoiler "Turtle Reference" %}
+You'll need these commands:
 `forward (`distance in pixels`)`<br>
 `backward (`distance in pixels`)`<br>
 `right (`degrees`)`<br>
 `left (`degrees`)`<br>
+Click here for more Turtle commands
 {% endspoiler %}
 
 {% spoiler "Algorithm" %}
