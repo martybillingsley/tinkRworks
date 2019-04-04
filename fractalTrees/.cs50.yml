@@ -6,4 +6,3 @@ lab50:
     - x
   files:
     - !include tree.py
-    - !include turtleReference.pdf
