@@ -13,7 +13,7 @@ You'll need these commands:
 `backward (`distance in pixels`)`<br>
 `right (`degrees`)`<br>
 `left (`degrees`)`<br>
-Click here for more Turtle commands
+[Click here for more Turtle commands](https://lab.cs50.io/martybillingsley/tinkRworks/master/fractalTrees/turtleReference.pdf) <br>
 {% endspoiler %}
 
 {% spoiler "Algorithm" %}
