@@ -4,10 +4,10 @@ The Koch snowflake is a fractal curve made by taking a triangle and replacing ea
 ## Try drawing one side of the triangle 
 Write a function to draw one line segment (one side of the triangle).  As with the fractal trees, it's easiest to use a depth argument to control the complexity of the curve:
 
-![Koch depth 0](https://raw.githubusercontent.com/martybillingsley/images/master/koch1.png) 
-![Koch depth 0](https://raw.githubusercontent.com/martybillingsley/images/master/koch2.png) 
-![Koch depth 0](https://raw.githubusercontent.com/martybillingsley/images/master/koch3.png) 
-![Koch depth 0](https://raw.githubusercontent.com/martybillingsley/images/master/koch4.png) 
+depth 0: ![Koch depth 0](https://raw.githubusercontent.com/martybillingsley/images/master/koch1.png) 
+depth 1: ![Koch depth 0](https://raw.githubusercontent.com/martybillingsley/images/master/koch2.png) 
+depth 2:![Koch depth 0](https://raw.githubusercontent.com/martybillingsley/images/master/koch3.png) 
+depth3: ![Koch depth 0](https://raw.githubusercontent.com/martybillingsley/images/master/koch4.png) 
 
 <br>
 To run your program, type `python koch.py` in the terminal window at the bottom of your screen.<br>
