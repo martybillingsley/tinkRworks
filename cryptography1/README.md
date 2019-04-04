@@ -123,3 +123,9 @@ Enter your answer below:
 
 {% next %}
 # Write a Caesar Cipher Function
+Try writing a *function* to encrypt a message using the Caesar cipher.
+Call the function `encrypt()`. It should do the following:
+* take in a message as an argument (string)
+* take in a shift as an argument (integer)
+* return the encrypted message (string)
+<br>
