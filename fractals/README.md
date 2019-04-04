@@ -26,5 +26,6 @@ If you haven't used turtles, warm up with this Turtle Example.
 <br><br>
 ## Fractal Challenges
 [Trees](https://lab.cs50.io/martybillingsley/tinkRworks/master/fractalTrees/) <br>
-Koch Snowflake<br>
+[Koch Snowflake](https://lab.cs50.io/martybillingsley/tinkRworks/master/fractalKoch/) <br>
+[Torn Line Fractal](https://lab.cs50.io/martybillingsley/tinkRworks/master/fractalTornLine/) <br>
 Dragon Curve<br>
