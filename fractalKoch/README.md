@@ -21,6 +21,9 @@ You'll need these commands:
 {% endspoiler %}
 
 {% spoiler "Algorithm" %}
+<br>
+if the depth is 0, draw a straight line (this is to stop the recursion)<br>
+otherwise:<br>
 go forward 1/3 of the size<br>
 turn left 60 degrees<br>
 draw a Koch line segment 1/3 of the size<br>
@@ -32,13 +35,16 @@ go forward 1/3 of the size<br>
 
 {% spoiler "Code" %}
 `def drawLineSegment(size,depth):`<br>
- &nbsp;&nbsp; `forward(size)`<br>
- &nbsp;&nbsp; `left(60)`<br>
- &nbsp;&nbsp; `drawLineSegment(size/3,depth-1)`<br>
- &nbsp;&nbsp; `right(120)`<br>
- &nbsp;&nbsp; `drawLineSegment(size/3,depth-1)`<br>
- &nbsp;&nbsp; `left(60)`<br>
- &nbsp;&nbsp; `forward(size)`<br>
+ &nbsp;&nbsp; `if depth <= 0:`<br>
+ &nbsp;&nbsp;&nbsp;&nbsp; `forward(size)`<br>
+ &nbsp;&nbsp; `else:`<br>
+ &nbsp;&nbsp;&nbsp;&nbsp; `forward(size/3)`<br>
+ &nbsp;&nbsp;&nbsp;&nbsp; `left(60)`<br>
+ &nbsp;&nbsp;&nbsp;&nbsp; `drawLineSegment(size/3,depth-1)`<br>
+ &nbsp;&nbsp;&nbsp;&nbsp; `right(120)`<br>
+ &nbsp;&nbsp;&nbsp;&nbsp; `drawLineSegment(size/3,depth-1)`<br>
+ &nbsp;&nbsp;&nbsp;&nbsp; `left(60)`<br>
+ &nbsp;&nbsp;&nbsp;&nbsp; `forward(size/3)`<br>
 {% endspoiler %}
 
 {% next  %}
