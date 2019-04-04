@@ -14,7 +14,7 @@ depth4: ![Cesaro Tornn Line Segment depth 4](https://raw.githubusercontent.com/m
 To run your program, type `python tornLine.py` in the terminal window at the bottom of your screen.<br>
 
 {% spoiler "Turtle Reference" %}
-You'll need these commands:
+You'll need these commands:<br>
 `forward (`distance in pixels`)`<br>
 `right (`degrees`)`<br>
 `left (`degrees`)`<br>
