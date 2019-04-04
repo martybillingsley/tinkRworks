@@ -120,11 +120,4 @@ Enter your answer below:
 * What happens if you try a negative shift? 
 * What happens if you mix uppercase and lowercase letters?
 <br>
-{% Program the Caesar Cipher  %}
-# Write a Caesar Cipher Function
-Try writing a *function* to encrypt a message using the Caesar cipher.
-Call the function `encrypt()`. It should do the following:
-* take in a message as an argument (string)
-* take in a shift as an argument (integer)
-* return the encrypted message (string)
-<br>
+
