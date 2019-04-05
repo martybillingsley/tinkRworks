@@ -138,7 +138,7 @@ A good place to start is to write a function to encrypt a single letter. Call th
 3. To run your code, type `python caesar.py` in the terminal window at the bottom.
 
 ### Special Cases
-When playing with the enciphering tool, it was suggested that you try some different cases. You'll need to modify your `encryptLetter()` function to deal with each of these cases:
+When playing with the enciphering tool, it was suggested that you try some different cases. You'll need to modify your `encryptLetter()` function to deal with each of these cases:<br><br>
 **Wraparound** <br>
 If you encrypt the letter 'z' with a shift of one, it should become the letter 'a'. However, ord('z') is 122. If you add a shift of 1, you get 123. The character associated with 123 is the open curly bracket, which looks like this: {. Clearly not the letter 'a'! In this case, you'd need to subtract 26 (the number of letters in the alphabet) to get from 123 to 98, which is the number associated with 'a'. Change your `encryptLetter()` function so it handles wraparound. 
 {% spoiler "Help" %}
