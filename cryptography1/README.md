@@ -175,37 +175,37 @@ ROT13 is a Caesar cipher with a key of 13. It's used in online forums to hide sp
 
 <br>
 # Cracking the Caesar Cipher
-The Caesar Cipher isn't a very secure way to encrypt messages. It can be easily broken using a brute-force method; after all, there are only 26 possible keys.<br>
+The Caesar Cipher isn't a very secure way to encrypt messages. It can be easily broken using a brute-force method; after all, there are only 26 possible keys.<br><br>
 For example, if you interecpted the following encrypted message:<br>
-iye ryfobmbkpd sc pevv yp oovc<br>
-you could just try every key from 1 to 25:<br>
-key=0: iye ryfobmbkpd sc pevv yp oovc (this is the same as the original, but included here for the sake of completeness)<br>
-key=1: jzf szgpcnclqe td qfww zq ppwd<br>
-key=2: kag tahqdodmrf ue rgxx ar qqxe <br> 
-key=3: lbh ubirepensg vf shyy bs rryf <br> 
-key=4: mci vcjsfqfoth wg tizz ct sszg <br> 
-key=5: ndj wdktgrgpui xh ujaa du ttah <br> 
-key=6:  oek xeluhshqvj yi vkbb ev uubi<br> 
-key=7:  pfl yfmvitirwk zj wlcc fw vvcj<br> 
-key=8:  qgm zgnwjujsxl ak xmdd gx wwdk<br> 
-key=9:  rhn ahoxkvktym bl ynee hy xxel<br> 
-key=10:  sio bipylwluzn cm zoff iz yyfm<br> 
-key=11:  tjp cjqzmxmvao dn apgg ja zzgn<br> 
-key=12:  ukq dkranynwbp eo bqhh kb aaho<br> 
-key=13:  vlr elsbozoxcq fp crii lc bbip<br> 
-key=14:  wms fmtcpapydr gq dsjj md ccjq<br> 
-key=15:  xnt gnudqbqzes hr etkk ne ddkr<br> 
-key=16:  you hovercraft is full of eels<br> 
-key=17:  zpv ipwfsdsbgu jt gvmm pg ffmt<br> 
-key=18:  aqw jqxgtetchv ku hwnn qh ggnu<br> 
-key=19:  brx kryhufudiw lv ixoo ri hhov<br> 
-key=20:  csy lszivgvejx mw jypp sj iipw<br> 
-key=21:  dtz mtajwhwfky nx kzqq tk jjqx<br> 
-key=22:  eua nubkxixglz oy larr ul kkry<br> 
-key=23:  fvb ovclyjyhma pz mbss vm llsz<br> 
-key=24:  gwc pwdmzkzinb qa nctt wn mmta<br> 
-key=25:  hxd qxenalajoc rb oduu xo nnub<br> 
-Upon inspection, it's clear that the message was enciphered with a key of 16.<br><br>
+*iyeb ryfobmbkpd sc pevv yp oovc*<br>
+you could just try every shift from 1 to 25:<br>
+shift=0: *iyeb ryfobmbkpd sc pevv yp oovc* (this is the same as the original, but included here for the sake of completeness)<br>
+shift=1: *jzfc szgpcnclqe td qfww zq ppwd* <br>
+shift=2: *kagd tahqdodmrf ue rgxx ar qqxe* <br> 
+shift=3: *lbhe ubirepensg vf shyy bs rryf* <br> 
+shift=4: *mcif vcjsfqfoth wg tizz ct sszg* <br> 
+shift=5: *ndjg wdktgrgpui xh ujaa du ttah* <br> 
+shift=6: *oekh xeluhshqvj yi vkbb ev uubi* <br> 
+shift=7: *pfli yfmvitirwk zj wlcc fw vvcj* <br> 
+shift=8: *qgmj zgnwjujsxl ak xmdd gx wwdk* <br> 
+shift=9: *rhnk ahoxkvktym bl ynee hy xxel* <br> 
+shift=10: *siol bipylwluzn cm zoff iz yyfm* <br> 
+shift=11: *tjpm cjqzmxmvao dn apgg ja zzgn* <br> 
+shift=12: *ukqn dkranynwbp eo bqhh kb aaho* <br> 
+shift=13: *vlro elsbozoxcq fp crii lc bbip* <br> 
+shift=14: *wmsp fmtcpapydr gq dsjj md ccjq* <br> 
+shift=15: *xntq gnudqbqzes hr etkk ne ddkr* <br> 
+shift=16: *your hovercraft is full of eels* <br> 
+shift=17: *zpvs ipwfsdsbgu jt gvmm pg ffmt* <br> 
+shift=18: *aqwt jqxgtetchv ku hwnn qh ggnu* <br> 
+shift=19: *brxu kryhufudiw lv ixoo ri hhov* <br> 
+shift=20: *csyv lszivgvejx mw jypp sj iipw* <br> 
+shift=21: *dtzw mtajwhwfky nx kzqq tk jjqx* <br> 
+shift=22: *euax nubkxixglz oy larr ul kkry* <br> 
+shift=23: *fvby ovclyjyhma pz mbss vm llsz* <br> 
+shift=24: *gwcz pwdmzkzinb qa nctt wn mmta* <br> 
+shift=25: *hxda qxenalajoc rb oduu xo nnub* <br> 
+Upon inspection, it's clear that the message was enciphered with a key of 10 because 26-16=10.<br><br>
 
 ## Write a Caesar Cipher Cracker
 Write a function that takes an encrypted message and prints out all 26 possible decryptions. Try it on this message:<br>
