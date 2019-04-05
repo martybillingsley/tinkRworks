@@ -143,22 +143,22 @@ When playing with the enciphering tool, it was suggested that you try some diffe
 If you encrypt the letter 'z' with a shift of one, it should become the letter 'a'. However, ord('z') is 122. If you add a shift of 1, you get 123. The character associated with 123 is the open curly bracket, which looks like this: {. Clearly not the letter 'a'! In this case, you'd need to subtract 26 (the number of letters in the alphabet) to get from 123 to 98, which is the number associated with 'a'. Change your `encryptLetter()` function so it handles wraparound. 
 {% spoiler "Help" %}
 If, after adding the shift, the number is bigger than ord('z'), subtract 26 from it before converting it back to a character.
-{% endspoiler %}
+{% endspoiler %}<br>
 **Big Shift** <br>
 If your shift is greater than the number of letters in the alphabet, your fix for special case 1 won't work. A shift of 28, for example, should work the same as a shift of 8. Modify your `encryptLetter()` function to handle shifts of any size.
 {% spoiler "Help" %}
 You can use Python's modulo operator to return the remainder of a division operation. 28%26 (28 divided by 26) yields a remainder of 2, so a shift of 28 would be converted to a shift of 2.  
-{% endspoiler %}
+{% endspoiler %}<br>
 **Negative Shift** <br>
 The same wraparound can happen if you allow negative shifts. The letter 'b' with a shift of -3 should be encrypted as 'y'. Modify your `encryptLetter()` function to allow negative shifts. Make sure to allow for wraparounds in the negative direction!
 {% spoiler "Help" %}
 If, after adding the shift (whether negative or positive), the number is less than ord('a'), add 26 from it before converting it back to a character.
-{% endspoiler %}
+{% endspoiler %}<br>
 **Uppercase Letters** <br>
 Your `encryptLetter()` function should handle uppercase as well as lowercase letters. Think how this might affect your wraparound.
 {% spoiler "Help" %}
 Use an if statement to separate out uppercase and lowercase letters and treat each case separately. A letter is uppercase if letter >= 'A' and letter <= 'Z'. A letter is lowercase if letter >= 'a' and letter <= 'z'.
-{% endspoiler %}
+{% endspoiler %}<br>
 **Non-alphabetic Characters** <br>
 For this exercise, punctuation and spaces -- anything that's not a letter -- shouldn't be encrypted. Modify your `encryptLetter()` function so that it only encrypts letters. All other characters should be returned unchanged.
 {% spoiler "Help" %}
