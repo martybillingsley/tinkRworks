@@ -165,3 +165,11 @@ For this exercise, punctuation and spaces -- anything that's not a letter -- sho
 Add another case to your if statement so that if the letter is not uppercase and it's not lowercase, you return it unchanged.
 {% endspoiler %}
 
+{% next %}
+# Decrypting the Caesar Cipher
+In a rotation cipher like the Caesar Cipher, decrypting is equivalent to encrypting with the negative key. A message that's encrypted with a key (shift) of 5 can be decrypted using the same function, using a key of -5.
+
+<br>
+## ROT13
+ROT13 is a Caesar cipher with a key of 13. It's used in online forums to hide spoilers, the punchlines to jokes, puzzle solutions, and the like from being casually or accidentally seen. It provides almost no cryptographic security -- everyone knows the key! Notice that to decrypt a message that has been encoded with ROT13, you just encrypt it again with a key of 13. In other words ROT13(ROT14(*x*))=*x*.
+
