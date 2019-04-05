@@ -173,3 +173,41 @@ In a rotation cipher like the Caesar Cipher, decrypting is equivalent to encrypt
 ## ROT13
 ROT13 is a Caesar cipher with a key of 13. It's used in online forums to hide spoilers, the punchlines to jokes, puzzle solutions, and the like from being casually or accidentally seen. It provides almost no cryptographic security -- everyone knows the key! Notice that to decrypt a message that has been encoded with ROT13, you just encrypt it again with a key of 13. In other words ROT13(ROT14(*x*))=*x*.
 
+<br>
+# Cracking the Caesar Cipher
+The Caesar Cipher isn't a very secure way to encrypt messages. It can be easily broken using a brute-force method; after all, there are only 26 possible keys.<br>
+For example, if you interecpted the following encrypted message:<br>
+iye ryfobmbkpd sc pevv yp oovc<br>
+you could just try every key from 1 to 25:<br>
+key=0: iye ryfobmbkpd sc pevv yp oovc (this is the same as the original, but included here for the sake of completeness)<br>
+key=1: jzf szgpcnclqe td qfww zq ppwd<br>
+key=2: kag tahqdodmrf ue rgxx ar qqxe <br> 
+key=3: lbh ubirepensg vf shyy bs rryf <br> 
+key=4: mci vcjsfqfoth wg tizz ct sszg <br> 
+key=5: ndj wdktgrgpui xh ujaa du ttah <br> 
+key=6:  oek xeluhshqvj yi vkbb ev uubi<br> 
+key=7:  pfl yfmvitirwk zj wlcc fw vvcj<br> 
+key=8:  qgm zgnwjujsxl ak xmdd gx wwdk<br> 
+key=9:  rhn ahoxkvktym bl ynee hy xxel<br> 
+key=10:  sio bipylwluzn cm zoff iz yyfm<br> 
+key=11:  tjp cjqzmxmvao dn apgg ja zzgn<br> 
+key=12:  ukq dkranynwbp eo bqhh kb aaho<br> 
+key=13:  vlr elsbozoxcq fp crii lc bbip<br> 
+key=14:  wms fmtcpapydr gq dsjj md ccjq<br> 
+key=15:  xnt gnudqbqzes hr etkk ne ddkr<br> 
+key=16:  you hovercraft is full of eels<br> 
+key=17:  zpv ipwfsdsbgu jt gvmm pg ffmt<br> 
+key=18:  aqw jqxgtetchv ku hwnn qh ggnu<br> 
+key=19:  brx kryhufudiw lv ixoo ri hhov<br> 
+key=20:  csy lszivgvejx mw jypp sj iipw<br> 
+key=21:  dtz mtajwhwfky nx kzqq tk jjqx<br> 
+key=22:  eua nubkxixglz oy larr ul kkry<br> 
+key=23:  fvb ovclyjyhma pz mbss vm llsz<br> 
+key=24:  gwc pwdmzkzinb qa nctt wn mmta<br> 
+key=25:  hxd qxenalajoc rb oduu xo nnub<br> 
+Upon inspection, it's clear that the message was enciphered with a key of 16.<br><br>
+
+## Write a Caesar Cipher Cracker
+Write a function that takes an encrypted message and prints out all 26 possible decryptions. Try it on this message:<br>
+R cqrwt hxd qjen cqn qjwp xo cqrb!
+
