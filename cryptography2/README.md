@@ -11,6 +11,6 @@ To crack this type of cipher by using brute force -- trying every possible key -
 ## Enciphering using a substitution cipher
 Write a function called `encrypt()` that takes a plaintext message (a string) and a key (also a string of letters) and returns the encrypted message.  For example:
 `encrypt('hello', 'jaxscidkbguqzpeorvlyfthmnw')` 
-would return the string
+would return the string 'kcqqe'
 
 
