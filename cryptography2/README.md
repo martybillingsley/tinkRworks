@@ -5,12 +5,20 @@ A sample key might look like this:
 ![Koch depth 0](https://raw.githubusercontent.com/martybillingsley/images/master/subCipherKey.png) <br><br>
 Using a scrambled alphabet like this, there are 26!(26 factorial, which is 26x55x24x23x . . . x2x1) different keys. This is in more than 400 septillion possible keys. (Remember, with the Caesar Cipher, there were only 26 possible keys.)
 
-To crack this type of cipher by using brute force -- trying every possible key -- takes a long time. (estimate length of time) This was a fairly secure type of cipher before the invention of the computer. The drawbacks of the cipher are that the sender and receiver must both know the key and that it can be crackexd using frequency analysis.
+To crack this type of cipher by using brute force -- trying every possible key -- takes a long time.  This was a fairly secure type of cipher before the invention of the computer. The drawbacks of the cipher are that the sender and receiver must both know the key and that it can be cracked using frequency analysis.
 <br>
 
 ## Enciphering using a substitution cipher
 Write a function called `encrypt()` that takes a plaintext message (a string) and a key (also a string of letters) and returns the encrypted message.  For example:<br>
 `encrypt('hello', 'jaxscidkbguqzpeorvlyfthmnw')` <br>
 would return the string 'kcqqe'
-
+{% spoiler "Algorithm" %}
+First, create a dictionary of plaintext letters to encrypted letters. For the above example, it would start out like this:<br>
+`{'a':'j', 'b':'a', 'c':x'}`<br>
+Debugging hint: you can print out a dictionary to see its contents.<br>
+Practice using Python dictionaries here<br><br>
+Next, you'll build up a string of encrypted letters. This string starts out empty, and you'll add to it using the `+` operator.<br>
+For each letter in the plaintext message, look up its eqivalent in the dictionary that you created, and add the encrypted letter to the string.<br>
+Remember to return the string when the for loop finishes!
+{% endspoiler %}<br>
 
