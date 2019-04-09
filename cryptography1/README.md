@@ -210,6 +210,8 @@ Upon inspection, it's clear that the message was enciphered with a key of 10 bec
 ## Write a Caesar Cipher Cracker
 Write a function that takes an encrypted message and prints out all 26 possible decryptions. Try it on this message:<br>
 R cqrwt hxd qjen cqn qjwp xo cqrb!
-{% next %}
+<br><br>
+### [Next: Substitution Ciphers](https://lab.cs50.io/martybillingsley/tinkRworks/master/cryptography2/)
+
 
 
