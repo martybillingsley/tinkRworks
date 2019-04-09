@@ -13,12 +13,8 @@ Write a function called `encrypt()` that takes a plaintext message (a string) an
 `encrypt('hello', 'jaxscidkbguqzpeorvlyfthmnw')` <br>
 would return the string 'kcqqe'
 {% spoiler "Algorithm" %}
-First, create a dictionary of plaintext letters to encrypted letters. For the above example, it would start out like this:<br>
-`{'a':'j', 'b':'a', 'c':x'}`<br>
-Debugging hint: you can print out a dictionary to see its contents.<br>
-Practice using Python dictionaries here<br><br>
-Next, you'll build up a string of encrypted letters. This string starts out empty, and you'll add to it using the `+` operator.<br>
-For each letter in the plaintext message, look up its eqivalent in the dictionary that you created, and add the encrypted letter to the string.<br>
+For each letter in the message, find where in the alphabet it lies (what is the index number?)
+Given the index number, find the matching letter in the key.
 Remember to return the string when the for loop finishes!
 {% endspoiler %}<br>
 
