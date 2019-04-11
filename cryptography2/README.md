@@ -17,7 +17,15 @@ For each letter in the message, find where in the alphabet it lies (what is the 
 Given the index number, find the matching letter in the key.
 Remember to return the string when the for loop finishes!
 {% endspoiler %}<br>
+{% check "Does your code compile?" %}
 
+  {% if compiles %}
+    Yes!
+  {% else %}
+    {{ compiles.stderr }}
+  {% endif %}
+
+{% endcheck %}
 
 ## Decrypting a substitution cipher
 Decrypting a substitution cipher is hard to do by brute force because there are so many possible keys. However, substituion ciphers can be broken using *frequency analysis*. The six most commonly used letters in English are e, t, a, o, n, and r, in that order. If you take a reasonably long encrypted text and count how many times each letter appears, there's a good chance that the letter with the highest count is 'e'.
