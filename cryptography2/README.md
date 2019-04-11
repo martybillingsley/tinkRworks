@@ -22,12 +22,28 @@ Remember to return the string when the for loop finishes!
 ## Decrypting a substitution cipher
 Decrypting a substitution cipher is hard to do by brute force because there are so many possible keys. However, substituion ciphers can be broken using *frequency analysis*. The six most commonly used letters in English are e, t, a, o, n, and r, in that order. If you take a reasonably long encrypted text and count how many times each letter appears, there's a good chance that the letter with the highest count is 'e'.
 
+Write a function to count the frequencies of letters in a text, storing the results in a Python dictionary. (practice with dictionaries) The function should return the dictionary. Write a function to print out the letters in the order of most frequently used to least.
+
+
+{% next %}
+## Decrypting a substitution cipher
 There are also other tricks to use. For example, the most common three-letter word is 'the'. See if you can decrypt a message by looking for the word 'the'?
 
 
 <div style="background-color:lightblue; padding:20px; width:80%;">
 	Encrypted Message: 
 	<input id="textInput3" type="text" value="gur png va gur ung fng ba gur avpr kuvgr furrg" style="overflow-x: scroll;"><br>
+	<!-- other possibilities:
+hke qeelcs ykelc zjveep ajqqeepl bp zn ajqqveez?
+who loosed those maroon balloons in my ballroom?
+
+Fuzzy Wuzzy was a bear. Fuzzy Wuzzy had no hair. Fuzzy Wuzzy wasn't fuzzy, was he?
+Ifwwn Hfwwn hjl j acjv. Ifwwn Hfwwn kjs pe kjbv. Ifwwn Hfwwn hjlp'y ifwwn, hjl kc?
+
+The rain in Spain stays mainly in the plain
+Ykc vjbp bp Lojbp lyjnl zjbpqn bp ykc oqjbp
+
+-->
 	<table style="padding:5px;text-align:center;font-family: monospace;">
 		<tr><td style="padding:5px;text-align:center;text-align:center;">
 	<!-- letter A -->
