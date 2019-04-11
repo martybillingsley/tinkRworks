@@ -25,7 +25,7 @@ Decrypting a substitution cipher is hard to do by brute force because there are 
 There are also other tricks to use. For example, the most common three-letter word is 'the'. See if you can decrypt a message by looking for the word 'the'?
 
 
-<div style="background-color:lightblue; padding:20px; width:400px;">
+<div style="background-color:lightblue; padding:20px; width:80%;">
 	Encrypted Message: 
 	<input id="textInput3" type="text" value="gur png va gur ung fng ba gur avpr kuvgr furrg" style="overflow-x: scroll;"><br>
 	<table style="padding:5px;text-align:center;font-family: monospace;">
