@@ -1,5 +1,5 @@
 # Transposition Ciphers
-In  a *transposition cipher*, all the same letters are used, but their positions are changed. The ciphertext is a permutation of the plaintext.  These defeat frequency analysis attempts to decipher the message, as each letter is the same as in the plaintext message.
+In  a *transposition cipher*, all the same letters are used, but their positions are changed. The ciphertext is a permutation of the plaintext.  This type of cipher defeats frequency analysis attempts to decipher the message, as each letter is the same as in the plaintext message.
 
 In *columnar transposition*, the message is written out in rows of fixed length and then read column by column. The key indicates the number of columns. To make it harder to crack, punctuation and spaces between words are usually removed. If the message doesn’t fit the rows exactly, junk letters are added. 
 <br>
