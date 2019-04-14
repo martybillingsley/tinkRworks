@@ -13,7 +13,7 @@ Step 1: remove spaces and punctuation and make all letters lowercase:
 
 
 
-Step 2: rewrite the text into columns, with a row length (i.e., key) of 5:<br>
+Step 2: rewrite the text into columns. In this case the row length is 5; this is the *key*<br>
 `compu`<br>
 `tersa`<br>
 `regoo`<br>
@@ -31,6 +31,7 @@ Step 2: rewrite the text into columns, with a row length (i.e., key) of 5:<br>
 
 Step 3: Read the text downwards to arrived at the encrypted text:<br>
 `ctrdlntiuadonoeealgrottiudmrgtoiunnrnrapsofwncsoegmbuaooistbtayic`
+
 
 
 ## Write an Encryption Function
