@@ -32,10 +32,15 @@ Step 2: rewrite the text into columns. In this case the row length is 5; this is
 Step 3: Read the text downwards to arrived at the encrypted text:<br>
 `ctrdlntiuadonoeealgrottiudmrgtoiunnrnrapsofwncsoegmbuaooistbtayic`
 
-
+<br><br>
 
 ## Write an Encryption Function
 Write a function called encrypt() that takes a string and a key (an integer) and returns the string encrypted with a column cipher.
 
 In the terminal (below, right) type `python trancipher.py` to run your program.
 
+{% next %}
+
+
+## Decrypting Columnular Transposition
+To decrypt a message that has been enciphered using a columnular transposition, run it through the encrypt function again.
