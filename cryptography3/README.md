@@ -13,7 +13,7 @@ Step 1: remove spaces and punctuation and make all letters lowercase:
 
 
 
-Step 2: rewrite the text into columns, with a row length (i.e., key) of 5:
+Step 2: rewrite the text into columns, with a row length (i.e., key) of 5:<br>
 `compu`<br>
 `tersa`<br>
 `regoo`<br>
