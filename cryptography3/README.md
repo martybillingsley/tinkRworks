@@ -43,4 +43,4 @@ In the terminal (below, right) type `python trancipher.py` to run your program.
 
 
 ## Decrypting Columnular Transposition
-To decrypt a message that has been enciphered using a columnular transposition, run it through the encrypt function again.
+To decrypt a message that has been enciphered using a columnular transposition, write the message going down the page, in columns. How long each column is (how many rows it has) can be determined by the length of the message divided by the key. (See, you need the key to decrypt the message!)
