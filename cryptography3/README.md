@@ -34,7 +34,7 @@ Step 3: Read the text downwards to arrived at the encrypted text:<br>
 
 <br><br>
 
-## Write an Encryption Function
+### Write an Encryption Function
 Write a function called encrypt() that takes a string and a key (an integer) and returns the string encrypted with a column cipher.
 
 In the terminal (below, right) type `python trancipher.py` to run your program.
