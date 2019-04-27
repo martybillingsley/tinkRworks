@@ -74,7 +74,11 @@ In each `forward` and `backward` command, use the argument variable instead of a
 Try to draw a tree like this:<br>
 ![Tree](https://raw.githubusercontent.com/martybillingsley/images/master/tree3.png) <br>
 <br>Note: think about when to stop!
-
+{% spoiler "Recursion Explained" %}
+Sometimes it is helpful to think of a recursive algorithm in terms of a diagram of function calls. This figure shows that the recursive calls are always made going to the left. The active functions are outlined in black, and the inactive function calls are in gray. The farther you go toward the bottom of the figure, the smaller the branches. The function finishes drawing one level at a time; once it is finished with the bottom left it moves to the bottom right, and so on.<br>
+![Recursion Tree](https://raw.githubusercontent.com/martybillingsley/images/master/treeRecursionDiagram.png) <br>
+{% endspoiler %}
+<br>
 {% spoiler "Algorithm" %}
 Draw the trunk<br>
 Turn and draw a branch<br>
@@ -85,7 +89,7 @@ Draw a tree on the end of that branch<br>
 Go backward to the trunk<br>
 Turn right and go backward down the trunk<br>
 {% endspoiler %}
-
+<br>
 {% spoiler "Problems?" %}
 Does your tree look like this?<br>
 ![Tree gone wrong](https://raw.githubusercontent.com/martybillingsley/images/master/tree2.png) <br>
