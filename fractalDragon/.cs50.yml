@@ -7,4 +7,3 @@ lab50:
     - x
   files:
     - !include dragon.py
-    - !include turtleReference.pdf
