@@ -22,7 +22,7 @@ Step 2: Reverse the copy<br>
 copy: L L R R L R R<br>
 Step 3: In the copy, replace 'R' with 'L' and 'L' with 'R'<br>
 copy: R R L L R L L<br>
-Step 4: join the original and the copy together with an 'R' inbetween<br>
+Step 4: join the original and the copy together with an 'R' in between<br>
 nextIteration: R R L R R L L R R R L L R L L<br>
 <br>
 To draw this curve, take the final iteration of the rule and move the turtle as follows<br>
