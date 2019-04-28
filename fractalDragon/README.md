@@ -1,5 +1,5 @@
 # Dragon Curve
-A dragon curve is another example of a *self-similar*, or *fractal*, curve. This one is a space-filling curve that never crosses over itself; it might appear to, but that's only when the line runs into itself at a 90&deg; corner.
+A dragon curve is another example of a *self-similar*, or *fractal*, curve. This one is a space-filling curve that never crosses over itself. (It might appear to, but that's only when the line runs into itself at a 90&deg; corner.)
 ![Dragon Curve](https://raw.githubusercontent.com/martybillingsley/images/master/dragon15iterations.png) 
 
 Dragon curve explained (sort of):
