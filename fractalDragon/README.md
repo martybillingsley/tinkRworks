@@ -2,10 +2,11 @@
 A dragon curve is another example of a *self-similar*, or *fractal*, curve. This one is a space-filling curve that never crosses over itself. (It might appear to, but that's only when the line runs into itself at a 90&deg; corner.)
 ![Dragon Curve](https://raw.githubusercontent.com/martybillingsley/images/master/dragon15iterations.png) 
 
-Dragon curve explained (sort of):
+### Dragon curve explained (sort of):
 {% video https://www.youtube.com/watch?v=wCyC-K_PnRY %}
 
-## Algorithm
+
+### Algorithm
 We can draw this curve using only iteration - no need for recursion - by first coming up with a rule that defines the path that the curve follows. The rule is made up of 'R's and 'L's, each of which determine whether the curve bends to the right or left at as it is drawn. As before, the user determines the depth, or complexity, of the curve by specifying the number of iterations the rule undergoes.
 
 The rule is built as follows:
