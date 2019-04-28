@@ -1,5 +1,6 @@
 # Dragon Curve
 A dragon curve is another example of a *self-similar*, or *fractal*, curve. This one is a space-filling curve that never crosses over itself; it might appear to, but that's only when the line runs into itself at a 90&deg; corner.
+![Dragon Curve](https://raw.githubusercontent.com/martybillingsley/images/master/dragon15iterations.png) 
 
 Dragon curve explained (sort of):
 {% video https://www.youtube.com/watch?v=wCyC-K_PnRY %}
@@ -27,5 +28,12 @@ To draw this curve, take the final iteration of the rule and move the turtle as 
 for each letter in the rule: move forward and if the letter is 'R', turn right 90&deg;, and if the letter is 'L', turn left 90&deg;.
 
 Write a function to generate the rule. It should have arguments for the number of iterations and the starting rule. It should return the ending rule.
-Example: makeRule(1, 'RRLRRLL') should return RRLRRLLRRRLLRLL (this is the example shown above).
-Example: makeRule(4, 'R') should return RRLRRLLRRRLLRLLRRRLRRLLLRRLLRLL
+Example 1: makeRule(1, 'RRLRRLL') should return RRLRRLLRRRLLRLL (this is the example shown above).
+Example 2: makeRule(4, 'R') should return RRLRRLLRRRLLRLLRRRLRRLLLRRLLRLL
+
+Next, write a function that takes a rule and a size as arguments, and has the turtle draw the shape defined by the rule, moving forward the number of steps dictated by the size argument.
+The curve that results from example 1 looks like this:
+![Dragon Curve](https://raw.githubusercontent.com/martybillingsley/images/master/dragon4Iterations.png) 
+The the curve that results from example 2 is more interesting:
+![Dragon Curve 4 iterations](https://raw.githubusercontent.com/martybillingsley/images/master/dragon4iterations.png) 
+The curve at the top of the page is 15 iterations, with a starting rule of 'R'
