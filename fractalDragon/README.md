@@ -25,7 +25,7 @@ copy: R R L L R L L<br>
 Step 4: join the original and the copy together with an 'R' inbetween<br>
 nextIteration: R R L R R L L R R R L L R L L<br>
 <br>
-To draw this curve, take the final iteration of the rule and move the turtle as follows
+To draw this curve, take the final iteration of the rule and move the turtle as follows<br>
 for each letter in the rule: move forward and if the letter is 'R', turn right 90&deg;, and if the letter is 'L', turn left 90&deg;.
 <br>
 ### Write a function to generate the rule 
