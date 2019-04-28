@@ -5,7 +5,7 @@ A dragon curve is another example of a *self-similar*, or *fractal*, curve. This
 ### Dragon curve explained (sort of):
 {% video https://www.youtube.com/watch?v=wCyC-K_PnRY %}
 
-
+<br><br>
 ### Algorithm
 We can draw this curve using only iteration - no need for recursion - by first coming up with a rule that defines the path that the curve follows. The rule is made up of 'R's and 'L's, each of which determine whether the curve bends to the right or left at as it is drawn. As before, the user determines the depth, or complexity, of the curve by specifying the number of iterations the rule undergoes.
 
