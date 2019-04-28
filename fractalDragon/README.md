@@ -37,6 +37,6 @@ Example 2: makeRule(4, 'R') should return RRLRRLLRRRLLRLLRRRLRRLLLRRLLRLL<br>
 The function should take a rule and a size as arguments, and have the turtle draw the shape defined by the rule, moving forward the number of steps dictated by the size argument.<br>
 The curve that results from example 1 looks like this:<br>
 ![Dragon Curve 3 iterations](https://raw.githubusercontent.com/martybillingsley/images/master/dragon3iterations.png) <br>
-The the curve that results from example 2 is a little more complex:<br>
+The curve that results from example 2 is a little more complex:<br>
 ![Dragon Curve 4 iterations](https://raw.githubusercontent.com/martybillingsley/images/master/dragon4iterations.png) <br>
 The curve at the top of the page is 15 iterations, with a starting rule of 'R'<br>
