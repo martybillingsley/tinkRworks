@@ -13,7 +13,7 @@ def makePicture(fName):
     im = Image.open(fName)
     return (im)
 
-# shows an image in it's own window within the GUI window
+# shows an image in its own window within the GUI window
 def show(img):
     img.show()
 
