@@ -6,7 +6,7 @@ Let's examine the draw.py program in the window on the left:<br>
 `win = turtle.Screen()` creates and opens a new window that we are calling **win**. Every window contains a canvas that is the part of the window a turtle can move around in and draw on.<br>
 `alex = turtle.Turtle()` creates a turtle that we are calling **alex**. Technically, alex is a variable that refers to this new turtle.<br>
 <br>
-######Turtle commands
+<h4?Turtle commands</h4>
 `forward (`distance in pixels`)` makes a turtle go forward some distance. <br>
 example: `alex.forward(50)` will make the turtle called alex move forward 50 pixels<br>
 `backward` works in much the same way<br>
@@ -17,7 +17,7 @@ example: `alex.right(45)` will make the turtle called alex turn right 45 degrees
 <br>
 [Click here for more Turtle commands](https://lab.cs50.io/martybillingsley/tinkRworks/master/turtleDraw/turtleReference.pdf) <br>
 <br>
-######Try it out
+<h4>Try it out</h4>
 Add commands to make alex move and turn and move again.<br>
 To run your program, type `python draw.py` in the terminal window at the bottom of your screen.<br>
 
