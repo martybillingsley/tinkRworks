@@ -3,10 +3,10 @@
 
 Let's examine the draw.py program in the window on the left:<br>
 `import turtle` tells Python to load a whole bunch of functions that allow us to create turtles and move them around. <br>
-`win = turtle.Screen()` creates and opens a new window that we are calling win. Every window contains a canvas that is the part of the window we can draw on.<br>
-`alex = turtle.Turtle()` creates a turtle that we are calling alex. Technically, alex is a variable that refers to this new turtle.<br>
+`win = turtle.Screen()` creates and opens a new window that we are calling **win**. Every window contains a canvas that is the part of the window a turtle can move around in and draw on.<br>
+`alex = turtle.Turtle()` creates a turtle that we are calling **alex**. Technically, alex is a variable that refers to this new turtle.<br>
 <br>
-###Turtle commands:
+######Turtle commands
 `forward (`distance in pixels`)` makes a turtle go forward some distance. <br>
 example: `alex.forward(50)` will make the turtle called alex move forward 50 pixels<br>
 `backward` works in much the same way<br>
@@ -17,16 +17,19 @@ example: `alex.right(45)` will make the turtle called alex turn right 45 degrees
 <br>
 [Click here for more Turtle commands](https://lab.cs50.io/martybillingsley/tinkRworks/master/turtleDraw/turtleReference.pdf) <br>
 <br>
+######Try it out
 Add commands to make alex move and turn and move again.<br>
 To run your program, type `python draw.py` in the terminal window at the bottom of your screen.<br>
 
 
-
-
-{% spoiler "Algorithm" %}
-help goes here, along with questions:
-how many degrees in a circle
-how many sides to a square, etc.
+{% spoiler "Help" %}
+Add these lines to the bottom of the program draw.py:<br>
+`alex.forward(50)`<br>
+`alex.right(90)`<br>
+`alex.forward(30)`<br>
+`alex.left(45)`<br>
+`alex.forward(50)`<br>
+The turtle should draw a shape that looks like this:<br>
 {% endspoiler %}
 
 
@@ -34,3 +37,8 @@ how many sides to a square, etc.
 {% next  %}
 
 ## Add commands to make alex draw a square
+{% spoiler "Help" %}
+help goes here, along with questions:
+how many degrees in a circle
+how many sides to a square, etc.
+{% endspoiler %}
