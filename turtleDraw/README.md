@@ -30,9 +30,7 @@ Add these lines to the program draw.py, after the line `alex = turtle.Turtle()` 
 `alex.left(45)`<br>
 `alex.forward(50)`<br>
 The turtle should draw a shape that looks like this:<br>
-![Simple tree](https://raw.githubusercontent.com/martybillingsley/images/turtleDrawImages/master/turtleDraw1.png) 
-![First drawing](https://raw.githubusercontent.com/martybillingsley/images/turtleDrawImages/master/turtleDraw1.png) <br>
-![Tree](https://raw.githubusercontent.com/martybillingsley/images/master/tree3.png) <br>
+![First drawing](https://raw.githubusercontent.com/martybillingsley/images/master/turtleDraw1.png) <br>
 {% endspoiler %}
 
 
