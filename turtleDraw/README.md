@@ -46,3 +46,8 @@ how many sides does a square have?
 how many degrees is each angle in a square?  
 
 {% endspoiler %}
+
+<h4>How many lines of code did you have to write?</h4>
+Did you find yourself typing the same lines over and over again?  
+In Python, you can use a loop to do something over and over again.  
+(point to intro/review of for loops)
