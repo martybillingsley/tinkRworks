@@ -30,6 +30,7 @@ Add these lines to the bottom of the program draw.py:<br>
 `alex.left(45)`<br>
 `alex.forward(50)`<br>
 The turtle should draw a shape that looks like this:<br>
+![Simple tree](https://raw.githubusercontent.com/martybillingsley/images/turtleDraw/master/turtleDraw1.png) 
 {% endspoiler %}
 
 
