@@ -23,7 +23,7 @@ To run your program, type `python draw.py` in the terminal window at the bottom 
 
 
 {% spoiler "Help" %}
-Add these lines to the bottom of the program draw.py:<br>
+Add these lines to the program draw.py, after the line `alex = turtle.Turtle()` and before the line `turtle.done()`:<br>
 `alex.forward(50)`<br>
 `alex.right(90)`<br>
 `alex.forward(30)`<br>
