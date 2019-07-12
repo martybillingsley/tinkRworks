@@ -6,7 +6,7 @@ Let's examine the draw.py program in the window on the left:<br>
 `win = turtle.Screen()` creates and opens a new window that we are calling **win**. Every window contains a canvas that is the part of the window a turtle can move around in and draw on.<br>
 `alex = turtle.Turtle()` creates a turtle that we are calling **alex**. Technically, alex is a variable that refers to this new turtle.<br>
 <br>
-<h4?Turtle commands</h4>
+<h4>Turtle commands</h4>
 `forward (`distance in pixels`)` makes a turtle go forward some distance. <br>
 example: `alex.forward(50)` will make the turtle called alex move forward 50 pixels<br>
 `backward` works in much the same way<br>
