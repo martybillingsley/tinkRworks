@@ -37,9 +37,12 @@ The turtle should draw a shape that looks like this:<br>
 
 {% next  %}
 
-## Add commands to make alex draw a square
+## Make the turtle draw a square
+
+Change your commands so that the turtle named alex draws a square.
 {% spoiler "Help" %}
-help goes here, along with questions:
-how many degrees in a circle
-how many sides to a square, etc.
+The answers to these questions might help you:  
+how many sides does a square have?  
+how many degrees is each angle in a square?  
+
 {% endspoiler %}
