@@ -1,0 +1,35 @@
+# Turtle Drawing
+## Start with drawing some shapes. 
+
+Let's examine the draw.py program to the left:
+`import turtle` tells Python to load a whole bunch of functions that allow us to create turtles and move them around. 
+`win = turtle.Screen()` creates and opens a new window that we are calling win. Every window contains a canvas that is the part of the window we can draw on.
+`alex = turtle.Turtle()` creates a turtle that we are calling alex. Technically, alex is a variable that refers to this new turtle.
+
+Turtle commands:
+`forward (`distance in pixels`)` makes a turtle go forward some distance. 
+example: `alex.forward(50)` will make the turtle called alex move forward 50 pixels
+`backward` works in much the same way
+`right (`degrees`)` makes a turtle turn to the right some number of degrees
+example: `alex.right(45)` will make the turtle called alex turn right 45 degrees
+`left` works in much the same way
+
+[Click here for more Turtle commands](https://lab.cs50.io/martybillingsley/tinkRworks/master/turtleDraw/turtleReference.pdf) <br>
+<br>
+Add commands to make alex move and turn and move again
+To run your program, type `python draw.py` in the terminal window at the bottom of your screen.<br>
+
+
+
+
+{% spoiler "Algorithm" %}
+help goes here, along with questions:
+how many degrees in a circle
+how many sides to a square, etc.
+{% endspoiler %}
+
+
+
+{% next  %}
+
+## Add commands to make alex draw a square
