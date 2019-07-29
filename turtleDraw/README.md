@@ -5,7 +5,7 @@ Let's examine the draw.py program in the window on the left:<br>
 `import turtle` tells Python to load a whole bunch of functions that allow us to create turtles and move them around. <br>
 `win = turtle.Screen()` creates and opens a new window that we are calling **win**. Every window contains a canvas that is the part of the window a turtle can move around in and draw on.<br>
 `alex = turtle.Turtle()` creates a turtle that we are calling **alex**. Technically, alex is a variable that refers to this new turtle.<br>
-`turtle.done()` tells the computer that the program is finished and that the turtle should start drawing.<br> 
+`turtle.done()` tells the computer that the program is finished and that the turtle should start drawing. Put all your code before this line.<br> 
 <br>
 <h4>Turtle commands</h4>
 `forward (`distance in pixels`)` makes a turtle go forward some distance. <br>
