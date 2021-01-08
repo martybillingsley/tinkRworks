@@ -6,7 +6,7 @@ Write a function to draw one line segment.  As with the fractal trees, it's easi
 
 depth 0: ![Cesaro Torn Line Segment depth 0](https://raw.githubusercontent.com/martybillingsley/images/master/tornLine1.png) <br>
 depth 1: ![Cesaro Tornn Line Segment depth 1](https://raw.githubusercontent.com/martybillingsley/images/master/tornLine2.png) <br>
-depth 2:![Cesaro Tornn Line Segment depth 2](https://raw.githubusercontent.com/martybillingsley/images/master/tornLine3.png) <br>
+depth 2:![Cesaro Tornn Line Segment depth 2](https://raw.githubusercontent.com/martybillingsley/images/master/tornLIne3.png) <br>
 depth3: ![Cesaro Tornn Line Segment depth 3](https://raw.githubusercontent.com/martybillingsley/images/master/tornLine4.png) <br>
 depth4: ![Cesaro Tornn Line Segment depth 4](https://raw.githubusercontent.com/martybillingsley/images/master/tornLine5.png) <br>
 
@@ -52,4 +52,4 @@ draw a torn line segment 1/2 of the size<br>
 {% next  %}
 ## Put a whole square together
 Draw four torn line segments, turning the turtle after each one, so that they join up to make a square.<br>
-![Torn Square](https://raw.githubusercontent.com/martybillingsley/images/master/tornLineFull2.png) 
+![Torn Square](https://raw.githubusercontent.com/martybillingsley/images/master/tornLineFull.png) 
