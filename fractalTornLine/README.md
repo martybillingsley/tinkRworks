@@ -51,5 +51,5 @@ draw a torn line segment 1/2 of the size<br>
 
 {% next  %}
 ## Put a whole square together
-Draw three Koch line segments, turning the turtle after each one, so that they join up to make a square.<br>
+Draw four torn line segments, turning the turtle after each one, so that they join up to make a square.<br>
 ![Torn Square](https://raw.githubusercontent.com/martybillingsley/images/master/tornLineFull2.png) 
